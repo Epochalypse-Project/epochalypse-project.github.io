@@ -5,6 +5,7 @@ title_separator          : "-"
 name                     : "Epochalypse Project"
 description              : "Raising awareness about the 2038 bug in all its manifestations and trying to fix things while there's still time."
 show_downloads           : false
+logo                     : assets/images/sloth.png
 github:
   is_project_page        : false
   is_user_page           : false

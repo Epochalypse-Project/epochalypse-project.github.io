@@ -1,13 +1,11 @@
-# Site Settings
-site:
-  theme                    : jekyll-theme-minimal
-  locale                   : "en-US"
-  title                    : "Epochalypse Project"
-  title_separator          : "-"
-  name                     : "Epochalypse Project"
-  description              : "Raising awareness about the 2038 bug in all its manifestations and trying to fix things while there's still time."
-  show_downloads           : false
-  github:
-    is_project_page        : false
-    is_user_page           : false
-    owner_url              : https://epochalypse-project.org/
+theme                    : jekyll-theme-minimal
+locale                   : "en-US"
+title                    : "Epochalypse Project"
+title_separator          : "-"
+name                     : "Epochalypse Project"
+description              : "Raising awareness about the 2038 bug in all its manifestations and trying to fix things while there's still time."
+show_downloads           : false
+github:
+  is_project_page        : false
+  is_user_page           : false
+  owner_url              : https://epochalypse-project.org/

@@ -32,6 +32,12 @@
         {% endif %}
 
         {% if site.show_links %}
+        <ul class="downloads">
+          <li><a href="{{ site.faq_url }}">Read <strong>FAQ</strong></a></li>
+          <li><a href="{{ site.discussion_url }}">Join <strong>forum</strong></a></li>
+          <li><a href="{{ site.wiki_url }}">Contribute on <strong>wiki</strong></a></li>
+        </ul>
+	<hr />
         <div class="unstyledtemplate template" style="display: block;">
 				  <div id="groupsio_unstyled_embed_signup">
 				    <form action="https://groups.io/g/epochalypse-discuss/signup?u=5908075693816369011" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="_blank">
@@ -49,11 +55,6 @@
 					   </form>
 				   </div>
 			    </div>
-        <ul class="downloads">
-          <li><a href="{{ site.faq_url }}">Read <strong>FAQ</strong></a></li>
-          <li><a href="{{ site.discussion_url }}">Join <strong>forum</strong></a></li>
-          <li><a href="{{ site.wiki_url }}">Contribute on <strong>wiki</strong></a></li>
-        </ul>
         {% endif %}
       </header>
       <section>

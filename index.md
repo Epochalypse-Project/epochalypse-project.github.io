@@ -32,7 +32,7 @@ These findings reveal some critical risks that our society cannot afford to igno
 - Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
 
 
-## Just a Normal Person Who Heard About This on a podcast/social/rss/etc.
+## Literally anyone on the internet reading this
 
 Even if you're just someone who heard about the 32-bit timestamp rollover problem on a podcast, you can help:
 
@@ -45,6 +45,8 @@ Even if you're just someone who heard about the 32-bit timestamp rollover proble
 - Spread awareness by telling friends and family about the issue
 - Test non-critical smartphone apps by changing your device date
 - Submit your findings to us, we are tracking the 32-bit timestamp rollover problem!
+- Raise awareness of this issue with your government officials and any geeky/techie friends who might be able to help us!
+- Consider joining our [mailing list](https://groups.io/g/epochalypse-discuss) and/or our [discussion forums](https://github.com/orgs/Epochalypse-Project/discussions).
 - Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
 
 ## Manufacturers
@@ -92,7 +94,7 @@ As a distributor of digital products, you can help by:
 
 ## Authorized Representatives
 
-As an authorized representative you can help by:
+As an authorized representative, you can help by:
 
 - Coordinate 32-bit timestamp rollover readiness testing efforts between manufacturers and competent authorities
 - Maintain documentation of 32-bit timestamp rollover testing
@@ -103,6 +105,88 @@ As an authorized representative you can help by:
 - Help prepare conformity declarations that include 32-bit timestamp rollover considerations
 - Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
 
+## Government Official
 
+As a government official, you can help by:
+
+- Develop official guidance documents on the 32-bit timestamp rollover problem for critical infrastructure operators
+- Create regulatory frameworks that require 32-bit timestamp rollover compliance in public procurement
+- Establish reporting mechanisms for organizations to disclose 32-bit timestamp rollover vulnerabilities
+- Coordinate cross-border exercises simulating 32-bit timestamp rollover scenarios in critical sectors
+- Assess national-level risks from the 32-bit timestamp rollover problem for essential services
+- Develop sector-specific guidelines for industries like healthcare, transportation, and energy
+- Allocate research funding for 32-bit timestamp rollover mitigation solutions
+- Host workshops bringing together public and private stakeholders to address the challenge
+- Update existing technical standards to include 32-bit timestamp rollover compliance requirements
+- Create certification schemes that verify products are protected against the 32-bit timestamp rollover problem
+- Develop public awareness campaigns about the potential impact on citizen services
+- Establish emergency response protocols for potential 32-bit timestamp rollover-related disruptions
+- Incorporate 32-bit timestamp rollover readiness into existing cybersecurity capability assessment frameworks
+- Provide technical assistance to smaller member states with limited resources
+- Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
+
+## Cybersecurity Researcher
+
+As an experienced cybersecurity researcher, you can help by:
+
+- Disassemble and analyze firmware of embedded systems to identify 32-bit timestamp rollover vulnerability patterns
+- Reverse engineer proprietary time-handling protocols to check for 32-bit integer usage
+- Create fuzzing tools specifically designed to test time-related functions and APIs
+- Develop proof-of-concept exploits that safely demonstrate 32-bit timestamp rollover vulnerabilities
+- Map the attack surface of critical systems related to time handling
+- Audit low-level code in open source projects for time_t dependencies
+- Analyze binary blobs in IoT devices for time overflow vulnerabilities
+- Share your findings through responsible disclosure channels
+- Create detection signatures for common 32-bit timestamp rollover vulnerability patterns
+- Mentor junior researchers on time-related vulnerability hunting techniques
+- Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
+
+## Incident Responder
+
+As a seasoned incident responder, you can help by:
+
+- Develop incident response playbooks specifically for time-related failures
+- Create forensic tools that can analyze systems after simulated 32-bit timestamp rollovers
+- Build containment strategies for potential cascading failures from time errors
+- Test backup and recovery procedures against 32-bit timestamp rollover scenarios
+- Design tabletop exercises that simulate 32-bit timestamp rollover-related incidents
+- Analyze logs for timestamp handling anomalies when testing with future dates past zero hour
+- Document patterns of system behavior before and after simulated time rollovers
+- Create a 32-bit timestamp rollover incident classification framework to standardize reporting
+- Train response teams on recognizing time-related system failures
+- Review existing CERT advisories for time-handling vulnerabilities
+- Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
+
+## Software Developer
+
+As an experienced software developer, you can help by:
+
+- Audit codebases for 32-bit time_t usage and upgrade to 64-bit implementations
+- Review legacy code for hardcoded time assumptions or magic numbers related to timestamps
+- Create unit tests specifically targeting time handling past zero hour
+- Refactor time-dependent algorithms to handle the 32-bit timestamp rollover transition gracefully
+- Develop time simulation libraries to facilitate easier testing of future dates
+- Check serialization/deserialization routines for proper handling of future timestamps
+- Review database schemas and ORM implementations for time field limitations
+- Audit third-party libraries and dependencies for time-handling issues
+- Implement time-related error detection and graceful recovery mechanisms
+- Document patterns and anti-patterns in time handling for your organization
+- Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
+
+## QA Tester
+
+As a veteran QA professional, you can help by:
+
+- Develop comprehensive test suites specifically for time-related functions
+- Create automated testing frameworks that can simulate system time manipulation
+- Design edge cases specifically targeting date and time handling
+- Build regression test suites that verify fixes for 32-bit timestamp rollover-related bugs
+- Create testing environments with virtualized time that can simulate zero hour and beyond
+- Develop performance tests that measure system behavior before and after the zero hour threshold
+- Document testing methodologies specifically for time-dependent systems
+- Create time-related test data generators that produce dates spanning beyond the zero hour
+- Design test matrices that cover various time zones and daylight saving time scenarios
+- Train QA teams on specialized techniques for temporal testing
+- Consider submitting useful findings, testing methodology, tips and tricks, etc. with us, we are coordinating a global response to the 32-bit timestamp rollover problem.
 
 By working together across all these roles, we can identify and fix 32-bit timestamp rollover problems before they cause real issues!

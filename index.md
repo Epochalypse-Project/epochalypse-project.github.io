@@ -1,10 +1,67 @@
 # Epochalypse Project
+# The 32-bit timestamp rollover vulnerability, aka "the 2038 problem": Our Digital Time Bomb
 
-Y2K38, the Year 2038 Problem, or simply the Epochalypse is approaching fast.
+**On 19 January 2038, at precisely 03:14:08 UTC, millions of sensitive embedded and industrial computer systems around the world will suddenly stop working, without a massive, coordinated global response.**
 
-19 January 2038 at 03:14:07 UTC software and hardware implementations relying on 32-bit signed integer standard epoch timestamps will overflow, resulting in a system time of 20:45:52 UTC on 13 December 1901. (So-called "Unix epoch time" is a concept far more ubiquitous than Unix itself within our technology stack, this bug impacts a wide array of platforms.)
+Sadly this is not science fiction. It's a very real technical problem that affects systems we rely on every day - from hospital equipment to power grids, from banking systems to transportation networks. And it's baked into the mathematical fabric of our digital societies.
 
-For the purposes of not constantly repeating ourselves below, we will stop saying "19 January 2038 at 03:14:07 UTC" and just call it "zero hour."
+## Why Should You Care?
+
+Imagine waking up to find:
+- Hospital equipment showing incorrect medication times
+- Banking systems unable to process payments
+- Traffic lights stuck on red
+- Power outages across cities
+- Internet services completely down
+- Military defense systems giving false alarms
+
+In our already tense world, with ongoing conflicts and fragile international relations, a global technical failure could make things much worse. When critical systems fail, people can die. Economies can collapse. Communications can break down when we need them most. And what's worse, malicious threat actors can manipulate time synchronization protocols in many cases to trigger this vulnerability at the time of their choosing.
+
+## What Exactly Is The Problem?
+
+Many sensitive embedded and industrial computer systems track time using a 32-bit counter that started on 01 January 1970. (This is a computer science thing, you can go look it up and read about the history, but just trust us for the moment.) This counter will run out of numbers at 03:14:08 UTC on 19 January 2038. When that happens, affected systems will think it's 1901, not 2038 - causing massive failures.
+
+This problem hides in:
+- Old computer systems still running critical infrastructure
+- Embedded devices in factories, vehicles, and buildings
+- Internet of Things (IoT) devices in homes and cities
+- Software that was written decades ago but still runs important services
+
+## Are We Too Late?
+
+**No, but we must act now.**
+
+With just 52 quarters (or just over 12 years) remaining until zero hour, we don't have time to replace all vulnerable systems. Many devices can't even be updated. The truth is: some systems will fail. To be perfectly honest, we've spent considerable efforts modelling this problem space, and we must say that the probability of successfully mitigating this massive issue given the time remaining is by no means a given. Our job now is to:
+
+1. Find the most critical vulnerable systems
+2. Fix what we can
+3. Prepare backup plans for what we can't fix
+4. Coordinate globally to prevent chaos
+
+## Why Our Project Matters
+
+We're building the world's largest collaborative effort to tackle the 32-bit timestamp rollover vulnerability. By testing devices, sharing results, and developing solutions together, together we can save lives and protect our digital world.
+
+Every test you run and report helps us map where the dangers are. Every solution you share can protect countless systems. Your contribution matters - whether you're a technical expert or just someone with a smartphone.
+
+## The World Needs Your Help
+
+Unlike Y2K, the 32-bit timestamp rollover vulnerability problem is absolutely not getting enough attention. It's shocking how many people don't know about it yet. Most companies aren't preparing. Most governments haven't even started planning.
+
+The technology industry has been aware of this issue since the mid-1990s back whenever the Y2K bug remediation efforts were getting underway. For some reason, there appears to no particular coordination at all on this critical issue. Having discovered this situation, we are coming to you to let you know about this issue, and to tell you more about how you can contribute to avoiding a potential brewing meltdown of our digital world.
+
+**But you know about it now. And you can help.**
+
+The sections below explain exactly how you can join our global team of problem-solvers - no matter who you are or what skills you have.
+
+Together, we can turn a potential digital disaster into humanity's greatest example of foresight and cooperation.
+
+**Let's get started.**
+
+# Zero Hour
+For the purposes of not constantly repeating ourselves below, we will stop saying "19 January 2038 at 03:14:07 UTC" and instead just call it "zero hour."
+
+# A slightly more technical perspective
 
 For most impacted systems, the result will be some chaotic breakdown of running state machine logic in which the flow of time logically reverses itself and/or division by zero occurs in sensitive time-handing code.
 

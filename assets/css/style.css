@@ -1,0 +1,30 @@
+body {
+  background-color: #000000;
+  color: #8fd4ff;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+a {
+  color: #8fd4ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b4e1ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #8fd4ff;
+  border-bottom: 1px solid #8fd4ff;
+  padding-bottom: 0.2em;
+}
+
+code, pre {
+  background-color: #111;
+  color: #8fd4ff;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}

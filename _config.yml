@@ -5,7 +5,7 @@ title_separator          : "-"
 name                     : "Epochalypse Project"
 description              : "Raising awareness about the 2038 bug in all its manifestations and trying to fix things while there's still time."
 show_links               : true
-logo                     : assets/images/sloth.png
+logo                     : assets/images/punk-sloth.png
 discussion_url           : https://github.com/orgs/Epochalypse-Project/discussions
 faq_url                  : https://github.com/Epochalypse-Project/hive/wiki/faq
 wiki_url                 : https://github.com/Epochalypse-Project/hive/wiki

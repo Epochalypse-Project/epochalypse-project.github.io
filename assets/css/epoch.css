@@ -23,3 +23,9 @@ code, pre {
   background-color: #111;
   color: #8fd4ff;
 }
+
+main, .content, article {
+  max-width: 860px;
+  margin: 0 auto;
+  line-height: 1.55;
+}

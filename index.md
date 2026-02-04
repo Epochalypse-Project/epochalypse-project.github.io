@@ -33,8 +33,8 @@ Many systems represent time using a 32-bit signed integer counting seconds since
 
 | Event | Timestamp |
 |-------|-----------|
-| Rollover moment | 2038-01-19 03:14:08 UTC |
-| Post-rollover interpretation | 1901-12-13 20:45:52 UTC |
+| Pre-rollover  | 2038-01-19 03:14:07 UTC |
+| Post-rollover | 1901-12-13 20:45:52 UTC |
 
 This is the **Year 2038 problem** (Y2038 / Y2K38).
 

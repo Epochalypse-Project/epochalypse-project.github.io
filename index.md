@@ -180,4 +180,4 @@ If you can help test safely, document behaviors, or improve guidance, you're wel
 _Epistemic note: This page reflects current understanding as of the date below. 
 Specific behaviors vary by system, implementation, and deployment context._
 
-**Page Last Updated:** 2026-01-29
+**Page Last Updated:** 2026-02-04

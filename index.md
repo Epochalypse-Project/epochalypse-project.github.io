@@ -1,6 +1,8 @@
 # The Epochalypse Project
 ## Time Integrity & Epoch Rollover Risk (2036–2038)
 
+**→ Read the FAQ: [FAQ — 2036/2038 Epoch Rollover Risk](faq.md)**
+
 **On 2038-01-19 03:14:08 UTC, systems that still rely on the ubiquitous 32-bit signed Unix timestamp (`time_t`) may experience incorrect time calculations, mis-ordered events, crashes, or other failures — unless remediated or architected to tolerate rollover.**
 
 Attackers don't need to wait. Weaknesses in time synchronization mechanisms and time-dependent logic can be exploited today by inducing or amplifying time anomalies.

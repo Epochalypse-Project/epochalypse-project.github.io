@@ -374,3 +374,5 @@ The project is founded and maintained by **Trey Darley** and **Pedro Umbelino**,
 | Semantic primitive | A foundational assumption so deep that systems treat it as “just how reality works” |
 | Blast radius | Scope of impact when a system fails: local vs cascading |
 | Exposure Matrix | A qualitative framework for comparing unlike risks across impact, uncertainty, difficulty, and blast radius |
+
+**Page Last Updated:** 2026-02-04

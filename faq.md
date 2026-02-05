@@ -355,7 +355,6 @@ The project is founded and maintained by **Trey Darley** and **Pedro Umbelino**,
 ### How can I get involved?
 
 - Join the FIRST Time Security SIG: https://www.first.org/global/sigs/time/
-- Use and adapt the 2038 Exposure Matrix: https://propertools.be/resources/2038-exposure-matrix/
 - Share safe observations and patterns (what failed, how it failed, under what conditions)
 
 ---
@@ -370,6 +369,6 @@ The project is founded and maintained by **Trey Darley** and **Pedro Umbelino**,
 | Epoch rollover | When a bounded counter wraps around and time becomes ambiguous or incorrect |
 | Semantic primitive | A foundational assumption so deep that systems treat it as “just how reality works” |
 | Blast radius | Scope of impact when a system fails: local vs cascading |
-| Exposure Matrix | A qualitative framework for comparing unlike risks across impact, uncertainty, difficulty, and blast radius |
+| 2038-Class Risk Exposure Matrix | An open-source qualitative risk analysis framework for comparing unlike risks across impact, uncertainty, difficulty, and blast radius |
 
-**Page Last Updated:** 2026-02-04
+**Page Last Updated:** 2026-02-05

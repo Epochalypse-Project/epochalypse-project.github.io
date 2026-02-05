@@ -305,9 +305,6 @@ A practical way to compare very different systems is to ask:
 
 These translate directly into governance decisions: what must be fixed first, and what assumptions are currently indefensible.
 
-For a structured framework to apply these questions, see the **2038 Exposure Matrix**:  
-https://propertools.be/resources/2038-exposure-matrix/
-
 ---
 
 ## Taking Action
